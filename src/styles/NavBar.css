@@ -1,0 +1,27 @@
+.NavBar {
+  background-color: white;
+  padding: 0;
+  box-shadow: #c0c0c0 0px 4px 16px, #c0c0c0 0px 8px 24px, #c0c0c0 0px 16px 56px;
+}
+
+.Link-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.LinkNav {
+  font-size: calc(0.5rem + 0.8vw);
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  gap: 3rem;
+}
+.LinkNav:hover {
+  color: rgb(222, 3, 3);
+}
