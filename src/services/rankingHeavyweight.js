@@ -4,13 +4,6 @@ const rankingHeavyweight = [
   {
     date: "2024-03-05",
     weightclass: "Heavyweight",
-    fighter: "Jon Jones",
-    img: Jones,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Heavyweight",
     fighter: "Tom Aspinall",
     rank: 1,
   },

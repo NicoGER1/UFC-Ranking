@@ -4,13 +4,6 @@ const rankingLightHeavyWeight = [
   {
     date: "2024-03-05",
     weightclass: "Light Heavyweight",
-    fighter: "Alex Pereira",
-    img: Pereira,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Light Heavyweight",
     fighter: "Jamahal Hill",
     rank: 1,
   },

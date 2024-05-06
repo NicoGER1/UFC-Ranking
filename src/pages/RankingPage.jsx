@@ -32,6 +32,7 @@ function RankingPage() {
                 MEN'S POUND-FOR-POUND <span>TOP RANK</span>
               </h2>
               <h3>ISLAM MAKHACHEV</h3>
+              <h4>CHAMPION</h4>
               <img src={Makhachev} alt="Islam Makhachev" />
             </div>
           </section>

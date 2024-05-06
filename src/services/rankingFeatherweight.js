@@ -4,13 +4,6 @@ const rankingFeathermweight = [
   {
     date: "2024-03-05",
     weightclass: "Featherweight",
-    fighter: "Ilia Topuria",
-    img: Topuria,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Featherweight",
     fighter: "Alexander Volkanovski",
     rank: 1,
   },

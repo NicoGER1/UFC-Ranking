@@ -4,13 +4,6 @@ const rankingFlyweight = [
   {
     date: "2024-03-05",
     weightclass: "Flyweight",
-    fighter: "Alexandre Pantoja",
-    img: Pantoja,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Flyweight",
     fighter: "Brandon Royval",
     rank: 1,
   },

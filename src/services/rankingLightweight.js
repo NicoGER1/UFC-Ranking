@@ -1,13 +1,6 @@
 import Makhachev from "../assets/lightweight/MAKHACHEV_ISLAM_BELT.png";
-  
+
 const rankingLightweight = [
-  {
-    date: "2024-03-05",
-    weightclass: "Lightweight",
-    fighter: "Islam Makhachev",
-    img: Makhachev,
-    rank: 0,
-  },
   {
     date: "2024-03-05",
     weightclass: "Lightweight",

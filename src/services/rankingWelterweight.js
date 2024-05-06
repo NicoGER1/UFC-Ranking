@@ -4,13 +4,6 @@ const rankingWelterweight = [
   {
     date: "2024-03-05",
     weightclass: "Welterweight",
-    fighter: "Leon Edwards",
-    img: LeonEdwards,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Welterweight",
     fighter: "Kamaru Usman",
     rank: 1,
   },

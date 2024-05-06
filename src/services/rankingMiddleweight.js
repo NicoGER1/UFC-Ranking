@@ -4,13 +4,6 @@ const rankingMiddleweight = [
   {
     date: "2024-03-05",
     weightclass: "Middleweight",
-    fighter: "Dricus Du Plessis",
-    img: Dricus,
-    rank: 0,
-  },
-  {
-    date: "2024-03-05",
-    weightclass: "Middleweight",
     fighter: "Sean Strickland",
     rank: 1,
   },
