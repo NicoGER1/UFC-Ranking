@@ -1,7 +1,145 @@
-[
+// import flyweight
+import Amir from "../assets/flyweight/ALBAZI_AMIR.png";
+import David from "../assets/flyweight/DVORAK_DAVID.png";
+import TIM from "../assets/flyweight/ELLIOTT_TIM.png";
+import STEVEN from "../assets/flyweight/ERCEG_STEVEN.png";
+import MANEL from "../assets/flyweight/KAPE_MANEL.png";
+import KARA from "../assets/flyweight/KARA-FRANCE_KAI.png";
+import MOKAEV from "../assets/flyweight/MOKAEV_MUHAMMAD.png";
+import MORENO from "../assets/flyweight/MORENO_BRANDON.png";
+import NICOLAU from "../assets/flyweight/NICOLAU_MATHEUS.png";
+import PANTOJAALEX from "../assets/flyweight/PANTOJA_ALEXANDRE.png";
+import PEREZ from "../assets/flyweight/PEREZ_ALEX.png";
+import ROYVAL from "../assets/flyweight/ROYVAL_BRANDON.png";
+import SCHNELL from "../assets/flyweight/SCHNELL_MATT.png";
+import SUMUDAERJI from "../assets/flyweight/SUMUDAERJI.png";
+import TAIRA from "../assets/flyweight/TAIRA_TATSURO.png";
+import ULANBEKOV from "../assets/flyweight/ULANBEKOV_TAGIR.png";
+// import bantam
+import BAUTISTA from "../assets/bantamweight/BAUTISTA_MARIO.png";
+import CEJUDO from "../assets/bantamweight/CEJUDO_HENRY.png";
+import CRUZ from "../assets/bantamweight/CRUZ_DOMINICK.png";
+import MERAB from "../assets/bantamweight/DVALISHVILI_MERAB.png";
+import FIGUEREDO from "../assets/bantamweight/FIGUEIREDO_DEIVESON.png";
+import FONT from "../assets/bantamweight/FONT_ROB.png";
+import MARTINEZ from "../assets/bantamweight/MARTINEZ_JONATHAN.png";
+import MUNHOZ from "../assets/bantamweight/MUNHOZ_PEDRO.png";
+import Nurmagomedov from "../assets/bantamweight/NURMAGOMEDOV_UMAR.png";
+import OMALLEY from "../assets/bantamweight/OMALLEY_SEAN.png";
+import PHILLIPS from "../assets/bantamweight/PHILLIPS_KYLER.png";
+import SANDHAGEN from "../assets/bantamweight/SANDHAGEN_CORY.png";
+import SIMON from "../assets/bantamweight/SIMON_RICKY.png";
+import VERA from "../assets/bantamweight/VERA_MARLON.png";
+import YADONG from "../assets/bantamweight/YADONG_SONG.png";
+import YAN from "../assets/bantamweight/YAN_PETR.png";
+//import feather
+import ALLEN from "../assets/featherweight/ALLEN_ARNOLD.png";
+import BARBOZA from "../assets/featherweight/BARBOZA_EDSON.png";
+import CHIKADZE from "../assets/featherweight/CHIKADZE_GIGA.png";
+import EMMET from "../assets/featherweight/EMMETT_JOSH.png";
+import EVLOEV from "../assets/featherweight/EVLOEV_MOVSAR.png";
+import HOLLOWAY from "../assets/featherweight/HOLLOWAY_MAX.png";
+import IGE from "../assets/featherweight/IGE_DAN.png";
+import KATTAR from "../assets/featherweight/KATTAR_CALVIN.png";
+import LOPES from "../assets/featherweight/LOPES_DIEGO.png";
+import MITCHELL from "../assets/featherweight/MITCHELL_BRYCE.png";
+import ORTEGA from "../assets/featherweight/ORTEGA_BRIAN.png";
+import RODRIGUEZ from "../assets/featherweight/RODRIGUEZ_YAIR.png";
+import STERLING from "../assets/featherweight/STERLING_ALJAMAIN.png";
+import TOPURIAILIA from "../assets/featherweight/TOPURIA_ILIA.png";
+import VOLK from "../assets/featherweight/VOLKANOVSKI_ALEXANDER.png";
+import YUSUFF from "../assets/featherweight/YUSUFF_SODIQ.png";
+//import lightweight
+import DARIUSH from "../assets/lightweight/DARIUSH_BENEIL.png";
+import DOSANJOS from "../assets/lightweight/DOS_ANJOS_RAFAEL.png";
+import FIZIEV from "../assets/lightweight/FIZIEV_RAFAEL.png";
+import GAETHJE from "../assets/lightweight/GAETHJE_JUSTIN.png";
+import GAMROT from "../assets/lightweight/GAMROT_MATEUSZ.png";
+import GREEN from "../assets/lightweight/GREEN_BOBBY.png";
+import HOOKER from "../assets/lightweight/HOOKER_DAN.png";
+import ISLAM from "../assets/lightweight/MAKHACHEV_ISLAM.png";
+import MICHAEL from "../assets/lightweight/MICHAEL.png";
+import MOICANO from "../assets/lightweight/MOICANO_RENATO.png";
+import OLIVEIRA from "../assets/lightweight/OLIVEIRA_CHARLES.png";
+import POIRIER from "../assets/lightweight/POIRIER_DUSTIN.png";
+import BENOIT from "../assets/lightweight/SAINT_DENIS_BENOIT.png";
+import ARMAN from "../assets/lightweight/TSARUKYAN_ARMAN.png";
+import TURNER from "../assets/lightweight/TURNER_JALIN.png";
+// import welter
+import BRADY from "../assets/welterweight/BRADY_SEAN.png";
+import BUCKLEY from "../assets/welterweight/BUCKLEY_JOAQUIN.png";
+import BURNS from "../assets/welterweight/BURNS_GILBERT.png";
+import COLBY from "../assets/welterweight/COVINGTON_COLBY.png";
+import DELLA from "../assets/welterweight/DELLA_MADDALENA_JACK.png";
+import LEDWARDS from "../assets/welterweight/EDWARDS_LEON.png";
+import GARRY from "../assets/welterweight/GARRY_IAN.png";
+import HOLLAND from "../assets/welterweight/HOLLAND_KEVIN.png";
+import LUQUE from "../assets/welterweight/LUQUE_VICENTE.png";
+import MAGNY from "../assets/welterweight/MAGNY_NEIL.png";
+import BELAL from "../assets/welterweight/MUHAMMAD_BELAL.png";
+import NEAL from "../assets/welterweight/NEAL_GEOFF.png";
+import PAGE from "../assets/welterweight/PAGE_MICHAEL.png";
+import SHAVKAT from "../assets/welterweight/RAKHMONOV_SHAVKAT.png";
+import THOMPSON from "../assets/welterweight/THOMPSON_STEPHEN.png";
+import USMAN from "../assets/welterweight/USMAN_KAMARU.png";
+//import middle
+import ADESANYA from "../assets/middleweight/ADESANYA_ISRAEL.png";
+import ARNOLD from "../assets/middleweight/ALLEN_BRENDAN.png";
+import CAIO from "../assets/middleweight/BARRALHO_CAIO.png";
+import CANNONIER from "../assets/middleweight/CANNONIER_JARED.png";
+import CHIMAEV from "../assets/middleweight/CHIMAEV_KHAMZAT.png";
+import COSTA from "../assets/middleweight/COSTA_PAULO.png";
+import CRAIG from "../assets/middleweight/CRAIG_PAUL.png";
+import CURTIS from "../assets/middleweight/CURTIS_CHRIS.png";
+import DOLIDZE from "../assets/middleweight/DOLIDZE_ROMAN.png";
+import DUPLESSUS from "../assets/middleweight/DU_PLESSUS_DRICUS.png";
+import HERMANSSON from "../assets/middleweight/HERMANSSON_JACK.png";
+import HERNANDEZ from "../assets/middleweight/HERNANDEZ_ANTHONY.png";
+import IMAVOV from "../assets/middleweight/IMAVOV_NASSOURDINE.png";
+import STRICKLAND from "../assets/middleweight/STRICKLAND_SEAN.png";
+import VETTORI from "../assets/middleweight/VETTORI_MARVIN.png";
+import WHITTAKER from "../assets/middleweight/WHITTAKER_ROBERT.png";
+//import lightheavy
+import Ankalaev from "../assets/lightheavyweight/ANKALAEV_MAGOMED.png";
+import Blachowicz from "../assets/lightheavyweight/BLACHOWICZ_JAN.png";
+import GUSKOV from "../assets/lightheavyweight/GUSKOV_BOGDAN.png";
+import HILL from "../assets/lightheavyweight/HILL_JAMAHAL.png";
+import Krylov from "../assets/lightheavyweight/KRYLOV_NIKITA.png";
+import Menifield from "../assets/lightheavyweight/MENIFIELD_ALONZO.png";
+import Azamat from "../assets/lightheavyweight/MURZAKANOV_AZAMAT.png";
+import VOLKAN from "../assets/lightheavyweight/OEZDEMIR_VOLKAN.png";
+import ALEXPEREIRA from "../assets/lightheavyweight/PEREIRA_ALEX.png";
+import JIRI from "../assets/lightheavyweight/PROCHAZKA_JIRI.png";
+import RAKIC from "../assets/lightheavyweight/RAKIC_ALEKSANDAR.png";
+import REYES from "../assets/lightheavyweight/REYES_DOMINICK.png";
+import KHALIL from "../assets/lightheavyweight/ROUNTREE_KHALIL.png";
+import ASMITH from "../assets/lightheavyweight/SMITH_ANTHONY.png";
+import SPANN from "../assets/lightheavyweight/SPANN_RYAN.png";
+import WALKER from "../assets/lightheavyweight/WALKER_JOHNNY.png";
+//import heavy
+import ALMEIDA from "../assets/heavyweight/ALMEIDA_JAILTON.png";
+import ASPINALL from "../assets/heavyweight/ASPINALL_TOM.png";
+import BLAYDES from "../assets/heavyweight/BLAYDES_CURTIS.png";
+import GANE from "../assets/heavyweight/GANE_CIRYL.png";
+import IMA from "../assets/heavyweight/IMA_MARCOS.png";
+import JONESJ from "../assets/heavyweight/JONES_JON.png";
+import LEWIS from "../assets/heavyweight/LEWIS_DERRICK.png";
+import MIOCIC from "../assets/heavyweight/MIOCIC_STIPE.png";
+import RODRIGO from "../assets/heavyweight/NASCIMENTO_RODRIGO.png";
+import SERGEI from "../assets/heavyweight/PAVLOVICH_SERGEI.png";
+import ROMANOV from "../assets/heavyweight/ROMANOV_ALEXANDR.png";
+import ROZENSTRUIK from "../assets/heavyweight/ROZENSTRUIK_JAIRZINHO.png";
+import SPIVAC from "../assets/heavyweight/SPIVAC_SERGHEI.png";
+import TAI from "../assets/heavyweight/TUIVASA_TAI.png";
+import TYBURA from "../assets/heavyweight/TYBURA_MARCIN.png";
+import VOLKOV from "../assets/heavyweight/VOLKOV_ALEXANDER.png";
+
+const fighterStat = [
   {
     name: "Alexandre Pantoja",
+    weightclass: "Flyweight",
     nickname: "The Cannibal",
+    img: PANTOJAALEX,
     wins: 26,
     losses: 5,
     draws: 0,
@@ -21,7 +159,9 @@
   },
   {
     name: "Brandon Royval",
+    weightclass: "Flyweight",
     nickname: "Raw Dawg",
+    img: ROYVAL,
     wins: 15,
     losses: 6,
     draws: 0,
@@ -41,7 +181,9 @@
   },
   {
     name: "Brandon Moreno",
+    weightclass: "Flyweight",
     nickname: "The Assassin Baby",
+    img: MORENO,
     wins: 21,
     losses: 7,
     draws: 2,
@@ -61,7 +203,9 @@
   },
   {
     name: "Amir Albazi",
+    weightclass: "Flyweight",
     nickname: "The Prince",
+    img: Amir,
     wins: 17,
     losses: 1,
     draws: 0,
@@ -81,7 +225,9 @@
   },
   {
     name: "Kai Kara-France",
+    weightclass: "Flyweight",
     nickname: "Don't Blink",
+    img: KARA,
     wins: 24,
     losses: 11,
     draws: 0,
@@ -101,6 +247,8 @@
   },
   {
     name: "Matheus Nicolau",
+    weightclass: "Flyweight",
+    img: NICOLAU,
     wins: 19,
     losses: 4,
     draws: 1,
@@ -120,7 +268,9 @@
   },
   {
     name: "Manel Kape",
+    weightclass: "Flyweight",
     nickname: "StarBoy",
+    img: MANEL,
     wins: 19,
     losses: 6,
     draws: 0,
@@ -140,7 +290,9 @@
   },
   {
     name: "Muhammad Mokaev",
+    weightclass: "Flyweight",
     nickname: "The Punisher",
+    img: MOKAEV,
     wins: 11,
     losses: 0,
     draws: 0,
@@ -160,6 +312,8 @@
   },
   {
     name: "Alex Perez",
+    weightclass: "Flyweight",
+    img: PEREZ,
     wins: 24,
     losses: 7,
     draws: 0,
@@ -179,6 +333,8 @@
   },
   {
     name: "Tim Elliott",
+    weightclass: "Flyweight",
+    img: TIM,
     wins: 20,
     losses: 13,
     draws: 1,
@@ -198,7 +354,9 @@
   },
   {
     name: "Steve Erceg",
+    weightclass: "Flyweight",
     nickname: "Astroboy",
+    img: STEVEN,
     wins: 11,
     losses: 1,
     draws: 0,
@@ -218,7 +376,9 @@
   },
   {
     name: "Matt Schnell",
+    weightclass: "Flyweight",
     nickname: "Danger",
+    img: SCHNELL,
     wins: 16,
     losses: 7,
     draws: 0,
@@ -238,6 +398,8 @@
   },
   {
     name: "Tagir Ulanbekov",
+    weightclass: "Flyweight",
+    img: ULANBEKOV,
     wins: 14,
     losses: 2,
     draws: 0,
@@ -257,6 +419,8 @@
   },
   {
     name: "Tatsuro Taira",
+    weightclass: "Flyweight",
+    img: TAIRA,
     wins: 14,
     losses: 0,
     draws: 0,
@@ -276,7 +440,9 @@
   },
   {
     name: "David Dvorak",
+    weightclass: "Flyweight",
     nickname: "Undertaker",
+    img: David,
     wins: 20,
     losses: 6,
     draws: 0,
@@ -296,7 +462,9 @@
   },
   {
     name: "Sumudaerji",
+    weightclass: "Flyweight",
     nickname: "The Tibetan Eagle",
+    img: SUMUDAERJI,
     wins: 16,
     losses: 5,
     draws: 0,
@@ -316,7 +484,9 @@
   },
   {
     name: "Sean O'Malley",
+    weightclass: "Bantamweight",
     nickname: "Sugar",
+    img: OMALLEY,
     wins: 17,
     losses: 1,
     draws: 0,
@@ -336,7 +506,9 @@
   },
   {
     name: "Merab Dvalishvili",
+    weightclass: "Bantamweight",
     nickname: "The Machine",
+    img: MERAB,
     wins: 16,
     losses: 4,
     draws: 0,
@@ -356,7 +528,9 @@
   },
   {
     name: "Aljamain Sterling",
+    weightclass: "Bantamweight",
     nickname: "Funk Master",
+    img: STERLING,
     wins: 23,
     losses: 4,
     draws: 0,
@@ -376,6 +550,8 @@
   },
   {
     name: "Cory Sandhagen",
+    weightclass: "Bantamweight",
+    img: SANDHAGEN,
     wins: 17,
     losses: 4,
     draws: 0,
@@ -395,7 +571,9 @@
   },
   {
     name: "Petr Yan",
+    weightclass: "Bantamweight",
     nickname: "No Mercy",
+    img: YAN,
     wins: 16,
     losses: 5,
     draws: 0,
@@ -415,7 +593,9 @@
   },
   {
     name: "Marlon Vera",
+    weightclass: "Bantamweight",
     nickname: "Chito",
+    img: VERA,
     wins: 21,
     losses: 8,
     draws: 1,
@@ -435,7 +615,9 @@
   },
   {
     name: "Henry Cejudo",
+    weightclass: "Bantamweight",
     nickname: "Triple C",
+    img: CEJUDO,
     wins: 16,
     losses: 3,
     draws: 0,
@@ -455,7 +637,9 @@
   },
   {
     name: "Song Yadong",
+    weightclass: "Bantamweight",
     nickname: "Kung Fu Kid",
+    img: YADONG,
     wins: 20,
     losses: 7,
     draws: 1,
@@ -475,7 +659,9 @@
   },
   {
     name: "Deiveson Figueiredo",
+    weightclass: "Bantamweight",
     nickname: "Deus da Guerra",
+    img: FIGUEREDO,
     wins: 22,
     losses: 3,
     draws: 1,
@@ -495,6 +681,8 @@
   },
   {
     name: "Rob Font",
+    weightclass: "Bantamweight",
+    img: FONT,
     wins: 20,
     losses: 8,
     draws: 0,
@@ -514,6 +702,8 @@
   },
   {
     name: "Umar Nurmagomedov",
+    weightclass: "Bantamweight",
+    img: Nurmagomedov,
     wins: 16,
     losses: 0,
     draws: 0,
@@ -533,7 +723,9 @@
   },
   {
     name: "Jonathan Martinez",
+    weightclass: "Bantamweight",
     nickname: "Dragon",
+    img: MARTINEZ,
     wins: 19,
     losses: 4,
     draws: 0,
@@ -553,7 +745,9 @@
   },
   {
     name: "Dominick Cruz",
+    weightclass: "Bantamweight",
     nickname: "The Dominator",
+    img: CRUZ,
     wins: 24,
     losses: 4,
     draws: 0,
@@ -573,7 +767,9 @@
   },
   {
     name: "Pedro Munhoz",
+    weightclass: "Bantamweight",
     nickname: "The Young Punisher",
+    img: MUNHOZ,
     wins: 20,
     losses: 8,
     draws: 0,
@@ -593,6 +789,8 @@
   },
   {
     name: "Mario Bautista",
+    weightclass: "Bantamweight",
+    img: BAUTISTA,
     wins: 13,
     losses: 2,
     draws: 0,
@@ -612,6 +810,8 @@
   },
   {
     name: "Ricky Simon",
+    weightclass: "Bantamweight",
+    img: SIMON,
     wins: 20,
     losses: 4,
     draws: 0,
@@ -631,7 +831,9 @@
   },
   {
     name: "Ilia Topuria",
+    weightclass: "Featherweight",
     nickname: "El Matador",
+    img: TOPURIAILIA,
     wins: 14,
     losses: 0,
     draws: 0,
@@ -651,7 +853,9 @@
   },
   {
     name: "Alexander Volkanovski",
+    weightclass: "Featherweight",
     nickname: "The Great",
+    img: VOLK,
     wins: 26,
     losses: 3,
     draws: 0,
@@ -671,7 +875,9 @@
   },
   {
     name: "Max Holloway",
+    weightclass: "Featherweight",
     nickname: "Blessed",
+    img: HOLLOWAY,
     wins: 25,
     losses: 7,
     draws: 0,
@@ -691,7 +897,9 @@
   },
   {
     name: "Brian Ortega",
+    weightclass: "Featherweight",
     nickname: "T-City",
+    img: ORTEGA,
     wins: 15,
     losses: 3,
     draws: 0,
@@ -711,7 +919,9 @@
   },
   {
     name: "Yair Rodriguez",
+    weightclass: "Featherweight",
     nickname: "El Pantera",
+    img: RODRIGUEZ,
     wins: 16,
     losses: 4,
     draws: 0,
@@ -731,6 +941,8 @@
   },
   {
     name: "Movsar Evloev",
+    weightclass: "Featherweight",
+    img: EVLOEV,
     wins: 17,
     losses: 0,
     draws: 0,
@@ -750,7 +962,9 @@
   },
   {
     name: "Arnold Allen",
+    weightclass: "Featherweight",
     nickname: "Almighty",
+    img: ALLEN,
     wins: 19,
     losses: 2,
     draws: 0,
@@ -770,7 +984,9 @@
   },
   {
     name: "Josh Emmett",
+    weightclass: "Featherweight",
     nickname: "CC0",
+    img: EMMET,
     wins: 18,
     losses: 4,
     draws: 0,
@@ -790,6 +1006,8 @@
   },
   {
     name: "Calvin Kattar",
+    weightclass: "Featherweight",
+    img: KATTAR,
     wins: 23,
     losses: 7,
     draws: 0,
@@ -809,7 +1027,9 @@
   },
   {
     name: "Giga Chikadze",
+    weightclass: "Featherweight",
     nickname: "Ninja",
+    img: CHIKADZE,
     wins: 15,
     losses: 3,
     draws: 0,
@@ -829,7 +1049,9 @@
   },
   {
     name: "Bryce Mitchell",
+    weightclass: "Featherweight",
     nickname: "Thug Nasty",
+    img: MITCHELL,
     wins: 16,
     losses: 2,
     draws: 0,
@@ -849,7 +1071,9 @@
   },
   {
     name: "Edson Barboza",
+    weightclass: "Featherweight",
     nickname: "Junior",
+    img: BARBOZA,
     wins: 24,
     losses: 11,
     draws: 0,
@@ -869,7 +1093,9 @@
   },
   {
     name: "Dan Ige",
+    weightclass: "Featherweight",
     nickname: "50K",
+    img: IGE,
     wins: 17,
     losses: 7,
     draws: 0,
@@ -889,7 +1115,9 @@
   },
   {
     name: "Sodiq Yusuff",
+    weightclass: "Featherweight",
     nickname: "Super",
+    img: YUSUFF,
     wins: 13,
     losses: 3,
     draws: 0,
@@ -909,7 +1137,9 @@
   },
   {
     name: "Lerone Murphy",
+    weightclass: "Featherweight",
     nickname: "The Miracle",
+    img: PHILLIPS,
     wins: 13,
     losses: 0,
     draws: 1,
@@ -929,7 +1159,9 @@
   },
   {
     name: "Alex Caceres",
+    weightclass: "Featherweight",
     nickname: "Bruce Leeroy",
+    img: LOPES,
     wins: 21,
     losses: 14,
     draws: 0,
@@ -949,6 +1181,8 @@
   },
   {
     name: "Islam Makhachev",
+    weightclass: "Lightweight",
+    img: ISLAM,
     wins: 25,
     losses: 1,
     draws: 0,
@@ -968,7 +1202,9 @@
   },
   {
     name: "Charles Oliveira",
+    weightclass: "Lightweight",
     nickname: "Do Bronxs",
+    img: OLIVEIRA,
     wins: 34,
     losses: 9,
     draws: 0,
@@ -988,7 +1224,9 @@
   },
   {
     name: "Justin Gaethje",
+    weightclass: "Lightweight",
     nickname: "The Highlight",
+    img: GAETHJE,
     wins: 25,
     losses: 4,
     draws: 0,
@@ -1008,7 +1246,9 @@
   },
   {
     name: "Dustin Poirier",
+    weightclass: "Lightweight",
     nickname: "The Diamond",
+    img: POIRIER,
     wins: 29,
     losses: 8,
     draws: 0,
@@ -1028,7 +1268,9 @@
   },
   {
     name: "Arman Tsarukyan",
+    weightclass: "Lightweight",
     nickname: "Ahalkalakets",
+    img: ARMAN,
     wins: 21,
     losses: 3,
     draws: 0,
@@ -1048,7 +1290,9 @@
   },
   {
     name: "Michael Chandler",
+    weightclass: "Lightweight",
     nickname: "Iron",
+    img: MICHAEL,
     wins: 23,
     losses: 8,
     draws: 0,
@@ -1068,7 +1312,9 @@
   },
   {
     name: "Mateusz Gamrot",
+    weightclass: "Lightweight",
     nickname: "Gamer",
+    img: GAMROT,
     wins: 23,
     losses: 2,
     draws: 0,
@@ -1088,6 +1334,8 @@
   },
   {
     name: "Beneil Dariush",
+    weightclass: "Lightweight",
+    img: DARIUSH,
     wins: 22,
     losses: 6,
     draws: 1,
@@ -1107,7 +1355,9 @@
   },
   {
     name: "Rafael Fiziev",
+    weightclass: "Lightweight",
     nickname: "Ataman",
+    img: FIZIEV,
     wins: 12,
     losses: 3,
     draws: 0,
@@ -1127,7 +1377,9 @@
   },
   {
     name: "Jalin Turner",
+    weightclass: "Lightweight",
     nickname: "The Tarantula",
+    img: TURNER,
     wins: 14,
     losses: 7,
     draws: 0,
@@ -1147,7 +1399,9 @@
   },
   {
     name: "Dan Hooker",
+    weightclass: "Lightweight",
     nickname: "The Hangman",
+    img: HOOKER,
     wins: 23,
     losses: 12,
     draws: 0,
@@ -1167,6 +1421,8 @@
   },
   {
     name: "Rafael Dos Anjos",
+    weightclass: "Lightweight",
+    img: DOSANJOS,
     wins: 32,
     losses: 15,
     draws: 0,
@@ -1186,7 +1442,9 @@
   },
   {
     name: "Benoit Saint Denis",
+    weightclass: "Lightweight",
     nickname: "God of War",
+    img: BENOIT,
     wins: 13,
     losses: 1,
     draws: 0,
@@ -1206,6 +1464,8 @@
   },
   {
     name: "Renato Moicano",
+    weightclass: "Lightweight",
+    img: MOICANO,
     wins: 17,
     losses: 5,
     draws: 1,
@@ -1225,7 +1485,9 @@
   },
   {
     name: "Bobby Green",
+    weightclass: "Lightweight",
     nickname: "King",
+    img: GREEN,
     wins: 31,
     losses: 15,
     draws: 1,
@@ -1244,27 +1506,10 @@
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
-    name: "Drew Dober",
-    wins: 27,
-    losses: 12,
-    draws: 0,
-    height_cm: 172.72,
-    weight_in_kg: 70.31,
-    reach_in_cm: 177.8,
-    stance: "Southpaw",
-    date_of_birth: "1988-10-19",
-    significant_strikes_landed_per_minute: 4.58,
-    significant_striking_accuracy: 40,
-    significant_strikes_absorbed_per_minute: 4.46,
-    significant_strike_defence: 51,
-    average_takedowns_landed_per_15_minutes: 0.68,
-    takedown_accuracy: 17,
-    takedown_defense: 56,
-    average_submissions_attempted_per_15_minutes: 0.1,
-  },
-  {
     name: "Leon Edwards",
+    weightclass: "Welterweight",
     nickname: "Rocky",
+    img: LEDWARDS,
     wins: 21,
     losses: 3,
     draws: 0,
@@ -1284,7 +1529,9 @@
   },
   {
     name: "Kamaru Usman",
+    weightclass: "Welterweight",
     nickname: "The Nigerian Nightmare",
+    img: USMAN,
     wins: 20,
     losses: 4,
     draws: 0,
@@ -1304,7 +1551,9 @@
   },
   {
     name: "Belal Muhammad",
+    weightclass: "Welterweight",
     nickname: "Remember the Name",
+    img: BELAL,
     wins: 23,
     losses: 3,
     draws: 0,
@@ -1324,7 +1573,9 @@
   },
   {
     name: "Shavkat Rakhmonov",
+    weightclass: "Welterweight",
     nickname: "Nomad",
+    img: SHAVKAT,
     wins: 17,
     losses: 0,
     draws: 0,
@@ -1344,7 +1595,9 @@
   },
   {
     name: "Gilbert Burns",
+    weightclass: "Welterweight",
     nickname: "Durinho",
+    img: BURNS,
     wins: 22,
     losses: 6,
     draws: 0,
@@ -1364,7 +1617,9 @@
   },
   {
     name: "Colby Covington",
+    weightclass: "Welterweight",
     nickname: "Chaos",
+    img: COLBY,
     wins: 17,
     losses: 3,
     draws: 0,
@@ -1384,7 +1639,9 @@
   },
   {
     name: "Ian Machado Garry",
+    weightclass: "Welterweight",
     nickname: "The Future",
+    img: GARRY,
     wins: 13,
     losses: 0,
     draws: 0,
@@ -1404,6 +1661,8 @@
   },
   {
     name: "Sean Brady",
+    weightclass: "Welterweight",
+    img: BRADY,
     wins: 16,
     losses: 1,
     draws: 0,
@@ -1423,7 +1682,9 @@
   },
   {
     name: "Stephen Thompson",
+    weightclass: "Welterweight",
     nickname: "Wonderboy",
+    img: THOMPSON,
     wins: 17,
     losses: 6,
     draws: 1,
@@ -1443,7 +1704,9 @@
   },
   {
     name: "Geoff Neal",
+    weightclass: "Welterweight",
     nickname: "Handz of Steel",
+    img: NEAL,
     wins: 15,
     losses: 5,
     draws: 0,
@@ -1463,7 +1726,9 @@
   },
   {
     name: "Vicente Luque",
+    weightclass: "Welterweight",
     nickname: "The Silent Assassin",
+    img: LUQUE,
     wins: 22,
     losses: 9,
     draws: 1,
@@ -1483,6 +1748,8 @@
   },
   {
     name: "Jack Della Maddalena",
+    weightclass: "Welterweight",
+    img: DELLA,
     wins: 16,
     losses: 2,
     draws: 0,
@@ -1502,7 +1769,9 @@
   },
   {
     name: "Neil Magny",
+    weightclass: "Welterweight",
     nickname: "The Haitian Sensation",
+    img: MAGNY,
     wins: 28,
     losses: 12,
     draws: 0,
@@ -1522,7 +1791,9 @@
   },
   {
     name: "Kevin Holland",
+    weightclass: "Welterweight",
     nickname: "Trailblazer",
+    img: HOLLAND,
     wins: 25,
     losses: 10,
     draws: 0,
@@ -1542,7 +1813,9 @@
   },
   {
     name: "Michael Chiesa",
+    weightclass: "Welterweight",
     nickname: "Maverick",
+    img: PAGE,
     wins: 18,
     losses: 7,
     draws: 0,
@@ -1562,7 +1835,9 @@
   },
   {
     name: "Rinat Fakhretdinov",
+    weightclass: "Welterweight",
     nickname: "Gladiator",
+    img: BUCKLEY,
     wins: 21,
     losses: 1,
     draws: 1,
@@ -1582,7 +1857,9 @@
   },
   {
     name: "Dricus Du Plessis",
+    weightclass: "Middleweight",
     nickname: "Stillknocks",
+    img: DUPLESSUS,
     wins: 20,
     losses: 2,
     draws: 0,
@@ -1602,6 +1879,8 @@
   },
   {
     name: "Sean Strickland",
+    weightclass: "Middleweight",
+    img: STRICKLAND,
     wins: 28,
     losses: 5,
     draws: 0,
@@ -1621,7 +1900,9 @@
   },
   {
     name: "Israel Adesanya",
+    weightclass: "Middleweight",
     nickname: "The Last Stylebender",
+    img: ADESANYA,
     wins: 24,
     losses: 3,
     draws: 0,
@@ -1641,7 +1922,9 @@
   },
   {
     name: "Robert Whittaker",
+    weightclass: "Middleweight",
     nickname: "The Reaper",
+    img: WHITTAKER,
     wins: 25,
     losses: 7,
     draws: 0,
@@ -1661,7 +1944,9 @@
   },
   {
     name: "Jared Cannonier",
+    weightclass: "Middleweight",
     nickname: "The Killa Gorilla",
+    img: CANNONIER,
     wins: 17,
     losses: 6,
     draws: 0,
@@ -1681,7 +1966,9 @@
   },
   {
     name: "Marvin Vettori",
+    weightclass: "Middleweight",
     nickname: "The Italian Dream",
+    img: VETTORI,
     wins: 19,
     losses: 7,
     draws: 1,
@@ -1701,7 +1988,9 @@
   },
   {
     name: "Brendan Allen",
+    weightclass: "Middleweight",
     nickname: "All In",
+    img: ARNOLD,
     wins: 23,
     losses: 5,
     draws: 0,
@@ -1721,7 +2010,9 @@
   },
   {
     name: "Paulo Costa",
+    weightclass: "Middleweight",
     nickname: "The Eraser",
+    img: COSTA,
     wins: 14,
     losses: 2,
     draws: 0,
@@ -1741,6 +2032,8 @@
   },
   {
     name: "Nassourdine Imavov",
+    weightclass: "Middleweight",
+    img: IMAVOV,
     wins: 12,
     losses: 4,
     draws: 0,
@@ -1760,6 +2053,8 @@
   },
   {
     name: "Roman Dolidze",
+    weightclass: "Middleweight",
+    img: DOLIDZE,
     wins: 12,
     losses: 2,
     draws: 0,
@@ -1779,7 +2074,9 @@
   },
   {
     name: "Jack Hermansson",
+    weightclass: "Middleweight",
     nickname: "The Joker",
+    img: HERMANSSON,
     wins: 23,
     losses: 8,
     draws: 0,
@@ -1799,7 +2096,9 @@
   },
   {
     name: "Khamzat Chimaev",
+    weightclass: "Middleweight",
     nickname: "Borz",
+    img: CHIMAEV,
     wins: 13,
     losses: 0,
     draws: 0,
@@ -1819,7 +2118,9 @@
   },
   {
     name: "Paul Craig",
+    weightclass: "Middleweight",
     nickname: "Bearjew",
+    img: CRAIG,
     wins: 17,
     losses: 7,
     draws: 1,
@@ -1839,7 +2140,9 @@
   },
   {
     name: "Anthony Hernandez",
+    weightclass: "Middleweight",
     nickname: "Fluffy",
+    img: HERNANDEZ,
     wins: 11,
     losses: 2,
     draws: 0,
@@ -1859,7 +2162,9 @@
   },
   {
     name: "Chris Curtis",
+    weightclass: "Middleweight",
     nickname: "Action-Man",
+    img: CURTIS,
     wins: 30,
     losses: 10,
     draws: 0,
@@ -1879,7 +2184,9 @@
   },
   {
     name: "Caio Borralho",
+    weightclass: "Middleweight",
     nickname: "The Natural",
+    img: CAIO,
     wins: 15,
     losses: 1,
     draws: 0,
@@ -1899,7 +2206,9 @@
   },
   {
     name: "Alex Pereira",
+    weightclass: "Light Heavyweight",
     nickname: "Poatan",
+    img: ALEXPEREIRA,
     wins: 9,
     losses: 2,
     draws: 0,
@@ -1919,7 +2228,9 @@
   },
   {
     name: "Jamahal Hill",
+    weightclass: "Light Heavyweight",
     nickname: "Sweet Dreams",
+    img: HILL,
     wins: 12,
     losses: 1,
     draws: 0,
@@ -1939,6 +2250,8 @@
   },
   {
     name: "Jiri Prochazka",
+    weightclass: "Light Heavyweight",
+    img: JIRI,
     wins: 29,
     losses: 4,
     draws: 1,
@@ -1958,6 +2271,8 @@
   },
   {
     name: "Magomed Ankalaev",
+    weightclass: "Light Heavyweight",
+    img: Ankalaev,
     wins: 18,
     losses: 1,
     draws: 1,
@@ -1977,6 +2292,8 @@
   },
   {
     name: "Jan Blachowicz",
+    weightclass: "Light Heavyweight",
+    img: Blachowicz,
     wins: 29,
     losses: 10,
     draws: 1,
@@ -1996,6 +2313,8 @@
   },
   {
     name: "Aleksandar Rakic",
+    weightclass: "Light Heavyweight",
+    img: RAKIC,
     wins: 14,
     losses: 3,
     draws: 0,
@@ -2015,7 +2334,9 @@
   },
   {
     name: "Nikita Krylov",
+    weightclass: "Light Heavyweight",
     nickname: "The Miner",
+    img: Krylov,
     wins: 30,
     losses: 9,
     draws: 0,
@@ -2035,6 +2356,8 @@
   },
   {
     name: "Johnny Walker",
+    weightclass: "Light Heavyweight",
+    img: WALKER,
     wins: 21,
     losses: 7,
     draws: 0,
@@ -2054,6 +2377,8 @@
   },
   {
     name: "Khalil Rountree Jr.",
+    weightclass: "Light Heavyweight",
+    img: KHALIL,
     wins: 13,
     losses: 5,
     draws: 0,
@@ -2073,7 +2398,9 @@
   },
   {
     name: "Volkan Oezdemir",
+    weightclass: "Light Heavyweight",
     nickname: "No Time",
+    img: VOLKAN,
     wins: 19,
     losses: 7,
     draws: 0,
@@ -2093,7 +2420,9 @@
   },
   {
     name: "Anthony Smith",
+    weightclass: "Light Heavyweight",
     nickname: "Lionheart",
+    img: ASMITH,
     wins: 37,
     losses: 18,
     draws: 0,
@@ -2113,7 +2442,9 @@
   },
   {
     name: "Ryan Spann",
+    weightclass: "Light Heavyweight",
     nickname: "Superman",
+    img: SPANN,
     wins: 21,
     losses: 9,
     draws: 0,
@@ -2133,7 +2464,9 @@
   },
   {
     name: "Alonzo Menifield",
+    weightclass: "Light Heavyweight",
     nickname: "Atomic",
+    img: Menifield,
     wins: 14,
     losses: 3,
     draws: 1,
@@ -2153,7 +2486,9 @@
   },
   {
     name: "Azamat Murzakanov",
+    weightclass: "Light Heavyweight",
     nickname: "The Professional",
+    img: Azamat,
     wins: 13,
     losses: 0,
     draws: 0,
@@ -2173,7 +2508,9 @@
   },
   {
     name: "Dominick Reyes",
+    weightclass: "Light Heavyweight",
     nickname: "The Devastator",
+    img: REYES,
     wins: 12,
     losses: 4,
     draws: 0,
@@ -2193,6 +2530,8 @@
   },
   {
     name: "Vitor Petrino",
+    weightclass: "Light Heavyweight",
+    img: GUSKOV,
     wins: 10,
     losses: 0,
     draws: 0,
@@ -2212,7 +2551,9 @@
   },
   {
     name: "Jon Jones",
+    weightclass: "Heavyweight",
     nickname: "Bones",
+    img: JONESJ,
     wins: 27,
     losses: 1,
     draws: 0,
@@ -2232,6 +2573,8 @@
   },
   {
     name: "Tom Aspinall",
+    weightclass: "Heavyweight",
+    img: ASPINALL,
     wins: 14,
     losses: 3,
     draws: 0,
@@ -2251,7 +2594,9 @@
   },
   {
     name: "Ciryl Gane",
+    weightclass: "Heavyweight",
     nickname: "Bon Gamin",
+    img: GANE,
     wins: 12,
     losses: 2,
     draws: 0,
@@ -2271,6 +2616,8 @@
   },
   {
     name: "Sergei Pavlovich",
+    weightclass: "Heavyweight",
+    img: SERGEI,
     wins: 18,
     losses: 2,
     draws: 0,
@@ -2290,6 +2637,8 @@
   },
   {
     name: "Stipe Miocic",
+    weightclass: "Heavyweight",
+    img: MIOCIC,
     wins: 20,
     losses: 4,
     draws: 0,
@@ -2309,7 +2658,9 @@
   },
   {
     name: "Curtis Blaydes",
+    weightclass: "Heavyweight",
     nickname: "Razor",
+    img: BLAYDES,
     wins: 17,
     losses: 4,
     draws: 0,
@@ -2329,7 +2680,9 @@
   },
   {
     name: "Alexander Volkov",
+    weightclass: "Heavyweight",
     nickname: "Drago",
+    img: VOLKOV,
     wins: 37,
     losses: 10,
     draws: 0,
@@ -2349,7 +2702,9 @@
   },
   {
     name: "Jailton Almeida",
+    weightclass: "Heavyweight",
     nickname: "Malhadinho",
+    img: ALMEIDA,
     wins: 20,
     losses: 2,
     draws: 0,
@@ -2369,7 +2724,9 @@
   },
   {
     name: "Serghei Spivac",
+    weightclass: "Heavyweight",
     nickname: "Polar Bear",
+    img: SPIVAC,
     wins: 16,
     losses: 4,
     draws: 0,
@@ -2389,7 +2746,9 @@
   },
   {
     name: "Tai Tuivasa",
+    weightclass: "Heavyweight",
     nickname: "Bam Bam",
+    img: TAI,
     wins: 15,
     losses: 6,
     draws: 0,
@@ -2409,7 +2768,9 @@
   },
   {
     name: "Marcin Tybura",
+    weightclass: "Heavyweight",
     nickname: "Tybur",
+    img: TYBURA,
     wins: 24,
     losses: 8,
     draws: 0,
@@ -2429,7 +2790,9 @@
   },
   {
     name: "Derrick Lewis",
+    weightclass: "Heavyweight",
     nickname: "The Black Beast",
+    img: LEWIS,
     wins: 27,
     losses: 12,
     draws: 0,
@@ -2449,7 +2812,9 @@
   },
   {
     name: "Jairzinho Rozenstruik",
+    weightclass: "Heavyweight",
     nickname: "Bigi Boy",
+    img: ROZENSTRUIK,
     wins: 13,
     losses: 5,
     draws: 0,
@@ -2469,7 +2834,9 @@
   },
   {
     name: "Alexandr Romanov",
+    weightclass: "Heavyweight",
     nickname: "King Kong",
+    img: ROMANOV,
     wins: 17,
     losses: 2,
     draws: 0,
@@ -2489,7 +2856,9 @@
   },
   {
     name: "Marcos Rogerio de Lima",
+    weightclass: "Heavyweight",
     nickname: "Pezao",
+    img: IMA,
     wins: 21,
     losses: 10,
     draws: 1,
@@ -2509,7 +2878,9 @@
   },
   {
     name: "Rodrigo Nascimento",
+    weightclass: "Heavyweight",
     nickname: "Ze Colmeia",
+    img: RODRIGO,
     wins: 11,
     losses: 1,
     draws: 0,
@@ -2528,3 +2899,4 @@
     average_submissions_attempted_per_15_minutes: 0.7,
   },
 ];
+export default fighterStat;

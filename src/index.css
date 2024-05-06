@@ -3,10 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   background-color: #fefefe;
+  box-sizing: border-box;
 }
 
 
-h1 {
-  font-size: 3em;
-  line-height: 1.1;
-}
