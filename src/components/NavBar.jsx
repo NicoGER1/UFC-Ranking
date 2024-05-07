@@ -7,14 +7,14 @@ const NavBar = () => {
     <nav className="NavBar">
       <ul className="Link-Container">
         <Link className="LinkNav" to="/" key={Link}>
-          Accueil
+          Home
         </Link>
         <Link className="LinkNav" to="/RankingPage" key={Link}>
-          Classement
+          Ranking
         </Link>
         <img className="logo" src={UFClogo} alt="UFC logo" />
         <Link className="LinkNav" to="/FighterPage" key={Link}>
-          Combattant
+          Fighters
         </Link>
         <Link className="LinkNav" to="/ContactPage" key={Link}>
           Contact

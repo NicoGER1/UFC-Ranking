@@ -4,7 +4,7 @@ function ContactPage() {
   return (
     <>
       <NavBar />
-      <h1>Pour plus d'infos Contactez moi</h1>
+      <h1>For more information contact me</h1>
     </>
   );
 }

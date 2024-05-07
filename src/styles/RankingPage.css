@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   align-self: center;
   align-items: center;
+  margin-left: 3rem;
 }
 .Division {
   font-size: 0.7rem;

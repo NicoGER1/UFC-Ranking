@@ -23,7 +23,7 @@ function RankingPage() {
   return (
     <>
       <NavBar />
-      <h1 className="rankingTitle">Classement des combattants</h1>
+      <h1 className="rankingTitle">Fighters Ranking</h1>
       <div className="Ranking-container">
         <div className="PFP-Ranking">
           <section className="PFP-Champ">

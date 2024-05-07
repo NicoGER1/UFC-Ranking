@@ -25,3 +25,9 @@
 .LinkNav:hover {
   color: rgb(222, 3, 3);
 }
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
