@@ -1,4 +1,3 @@
-
 import rankingPoundForPound from "../services/rankingPoundForPound";
 import rankingFlyweight from "../services/rankingFlyweight";
 import rankingBantamweight from "../services/rankingBantamweight";
@@ -17,7 +16,7 @@ import Dricus from "../assets/middleweight/DU_PLESSUS_DRICUS_BELT.png";
 import Pereira from "../assets/lightheavyweight/PEREIRA_ALEX_BELT.png";
 import Jones from "../assets/heavyweight/JONES_JON_BELT.png";
 
-import "../styles/RankingList.css";
+import "../styles/RankingPage.css";
 
 function RankingList() {
   return (

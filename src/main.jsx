@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage.jsx";
 import RankingPage from "./pages/RankingPage.jsx";
 import FighterPage from "./pages/FighterPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
+import FighterDetails from "./components/FighterDetails";
 
 const router = createBrowserRouter([
   {
@@ -25,8 +26,18 @@ const router = createBrowserRouter([
         element: <FighterPage />,
       },
       {
+        path: "/fighters/:id",
+        element: <FighterDetails />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5173//fighters/${params.id}`),
+      },
+      {
         path: "/ContactPage",
         element: <ContactPage />,
+      },
+      {
+        path: "*",
+        element: <h1>Page not found</h1>,
       },
     ],
   },
@@ -34,7 +45,7 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>

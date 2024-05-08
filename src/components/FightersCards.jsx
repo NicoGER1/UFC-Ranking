@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import NavBar from "../components/NavBar";
-import "../styles/FightersCards.css";
+import "../styles/FighterPage.css";
 import fighterStat from "../services/fighterStat";
+import { Link } from "react-router-dom";
 
 function FightersCards() {
   const [searchInput, setSearchInput] = useState("");
@@ -50,23 +50,24 @@ function FightersCards() {
       </div>
       <div className="article-container">
         {filteredFighters.map((fighter) => (
-          <article key={fighter.name} className="fighterCard">
-            <img src={fighter.img} alt={fighter.name} className="fighterPic" />
-            <div className="fighterInfos">
+          <Link
+            key={fighter.id}
+            to={`/fighters/${fighter.id}`}
+            className="fighterLink"
+          >
+            <article className="fighterCard">
+              <img
+                src={fighter.img}
+                alt={fighter.name}
+                className="fighterPic"
+              />
+
               <section className="fighterName">
                 <h2 className="name">{fighter.name}</h2>
-                <h3 className="weightCat">{fighter.weightclass} Weightclass</h3>
+                <h3 className="weightCat">{fighter.weightclass} Division</h3>
               </section>
-              <section className="fighterStats">
-                <p className="stats">
-                  {fighter.wins}-{fighter.losses}-{fighter.draws} (W-L-D)
-                </p>
-
-                <p className="infos">Stance: {fighter.stance}</p>
-                <p className="infos">Date of birth: {fighter.date_of_birth}</p>
-              </section>
-            </div>
-          </article>
+            </article>
+          </Link>
         ))}
       </div>
     </>

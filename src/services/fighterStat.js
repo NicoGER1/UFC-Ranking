@@ -136,6 +136,7 @@ import VOLKOV from "../assets/heavyweight/VOLKOV_ALEXANDER.png";
 
 const fighterStat = [
   {
+    id: 1,
     name: "Alexandre Pantoja",
     weightclass: "Flyweight",
     nickname: "The Cannibal",
@@ -158,6 +159,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 2,
     name: "Brandon Royval",
     weightclass: "Flyweight",
     nickname: "Raw Dawg",
@@ -180,6 +182,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.3,
   },
   {
+    id: 3,
     name: "Brandon Moreno",
     weightclass: "Flyweight",
     nickname: "The Assassin Baby",
@@ -202,6 +205,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 4,
     name: "Amir Albazi",
     weightclass: "Flyweight",
     nickname: "The Prince",
@@ -224,6 +228,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 5,
     name: "Kai Kara-France",
     weightclass: "Flyweight",
     nickname: "Don't Blink",
@@ -246,6 +251,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 6,
     name: "Matheus Nicolau",
     weightclass: "Flyweight",
     img: NICOLAU,
@@ -267,6 +273,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 7,
     name: "Manel Kape",
     weightclass: "Flyweight",
     nickname: "StarBoy",
@@ -289,6 +296,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 8,
     name: "Muhammad Mokaev",
     weightclass: "Flyweight",
     nickname: "The Punisher",
@@ -311,6 +319,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.3,
   },
   {
+    id: 9,
     name: "Alex Perez",
     weightclass: "Flyweight",
     img: PEREZ,
@@ -332,6 +341,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.3,
   },
   {
+    id: 10,
     name: "Tim Elliott",
     weightclass: "Flyweight",
     img: TIM,
@@ -353,6 +363,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 11,
     name: "Steve Erceg",
     weightclass: "Flyweight",
     nickname: "Astroboy",
@@ -375,6 +386,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 12,
     name: "Matt Schnell",
     weightclass: "Flyweight",
     nickname: "Danger",
@@ -397,6 +409,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.1,
   },
   {
+    id: 13,
     name: "Tagir Ulanbekov",
     weightclass: "Flyweight",
     img: ULANBEKOV,
@@ -418,6 +431,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 14,
     name: "Tatsuro Taira",
     weightclass: "Flyweight",
     img: TAIRA,
@@ -439,6 +453,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.8,
   },
   {
+    id: 15,
     name: "David Dvorak",
     weightclass: "Flyweight",
     nickname: "Undertaker",
@@ -461,6 +476,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 16,
     name: "Sumudaerji",
     weightclass: "Flyweight",
     nickname: "The Tibetan Eagle",
@@ -483,6 +499,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.6,
   },
   {
+    id: 17,
     name: "Sean O'Malley",
     weightclass: "Bantamweight",
     nickname: "Sugar",
@@ -505,6 +522,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 18,
     name: "Merab Dvalishvili",
     weightclass: "Bantamweight",
     nickname: "The Machine",
@@ -527,6 +545,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 19,
     name: "Aljamain Sterling",
     weightclass: "Bantamweight",
     nickname: "Funk Master",
@@ -549,6 +568,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.8,
   },
   {
+    id: 20,
     name: "Cory Sandhagen",
     weightclass: "Bantamweight",
     img: SANDHAGEN,
@@ -570,6 +590,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 21,
     name: "Petr Yan",
     weightclass: "Bantamweight",
     nickname: "No Mercy",
@@ -592,6 +613,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 23,
     name: "Marlon Vera",
     weightclass: "Bantamweight",
     nickname: "Chito",
@@ -614,6 +636,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 24,
     name: "Henry Cejudo",
     weightclass: "Bantamweight",
     nickname: "Triple C",
@@ -636,6 +659,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 25,
     name: "Song Yadong",
     weightclass: "Bantamweight",
     nickname: "Kung Fu Kid",
@@ -658,6 +682,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 26,
     name: "Deiveson Figueiredo",
     weightclass: "Bantamweight",
     nickname: "Deus da Guerra",
@@ -680,6 +705,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.6,
   },
   {
+    id: 27,
     name: "Rob Font",
     weightclass: "Bantamweight",
     img: FONT,
@@ -701,6 +727,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 28,
     name: "Umar Nurmagomedov",
     weightclass: "Bantamweight",
     img: Nurmagomedov,
@@ -722,6 +749,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 29,
     name: "Jonathan Martinez",
     weightclass: "Bantamweight",
     nickname: "Dragon",
@@ -744,6 +772,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 30,
     name: "Dominick Cruz",
     weightclass: "Bantamweight",
     nickname: "The Dominator",
@@ -766,6 +795,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 31,
     name: "Pedro Munhoz",
     weightclass: "Bantamweight",
     nickname: "The Young Punisher",
@@ -788,6 +818,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 32,
     name: "Mario Bautista",
     weightclass: "Bantamweight",
     img: BAUTISTA,
@@ -809,6 +840,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.3,
   },
   {
+    id: 33,
     name: "Ricky Simon",
     weightclass: "Bantamweight",
     img: SIMON,
@@ -830,6 +862,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 34,
     name: "Ilia Topuria",
     weightclass: "Featherweight",
     nickname: "El Matador",
@@ -852,6 +885,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.5,
   },
   {
+    id: 35,
     name: "Alexander Volkanovski",
     weightclass: "Featherweight",
     nickname: "The Great",
@@ -874,6 +908,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 36,
     name: "Max Holloway",
     weightclass: "Featherweight",
     nickname: "Blessed",
@@ -896,6 +931,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 37,
     name: "Brian Ortega",
     weightclass: "Featherweight",
     nickname: "T-City",
@@ -918,6 +954,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.2,
   },
   {
+    id: 38,
     name: "Yair Rodriguez",
     weightclass: "Featherweight",
     nickname: "El Pantera",
@@ -940,6 +977,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 39,
     name: "Movsar Evloev",
     weightclass: "Featherweight",
     img: EVLOEV,
@@ -961,6 +999,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 40,
     name: "Arnold Allen",
     weightclass: "Featherweight",
     nickname: "Almighty",
@@ -983,6 +1022,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 41,
     name: "Josh Emmett",
     weightclass: "Featherweight",
     nickname: "CC0",
@@ -1005,6 +1045,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 42,
     name: "Calvin Kattar",
     weightclass: "Featherweight",
     img: KATTAR,
@@ -1026,6 +1067,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 43,
     name: "Giga Chikadze",
     weightclass: "Featherweight",
     nickname: "Ninja",
@@ -1048,6 +1090,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 44,
     name: "Bryce Mitchell",
     weightclass: "Featherweight",
     nickname: "Thug Nasty",
@@ -1070,6 +1113,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.6,
   },
   {
+    id: 45,
     name: "Edson Barboza",
     weightclass: "Featherweight",
     nickname: "Junior",
@@ -1092,6 +1136,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 46,
     name: "Dan Ige",
     weightclass: "Featherweight",
     nickname: "50K",
@@ -1114,6 +1159,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 47,
     name: "Sodiq Yusuff",
     weightclass: "Featherweight",
     nickname: "Super",
@@ -1136,6 +1182,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 48,
     name: "Lerone Murphy",
     weightclass: "Featherweight",
     nickname: "The Miracle",
@@ -1158,6 +1205,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 49,
     name: "Alex Caceres",
     weightclass: "Featherweight",
     nickname: "Bruce Leeroy",
@@ -1180,6 +1228,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 50,
     name: "Islam Makhachev",
     weightclass: "Lightweight",
     img: ISLAM,
@@ -1201,6 +1250,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 51,
     name: "Charles Oliveira",
     weightclass: "Lightweight",
     nickname: "Do Bronxs",
@@ -1223,6 +1273,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.7,
   },
   {
+    id: 52,
     name: "Justin Gaethje",
     weightclass: "Lightweight",
     nickname: "The Highlight",
@@ -1245,6 +1296,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 53,
     name: "Dustin Poirier",
     weightclass: "Lightweight",
     nickname: "The Diamond",
@@ -1267,6 +1319,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.2,
   },
   {
+    id: 54,
     name: "Arman Tsarukyan",
     weightclass: "Lightweight",
     nickname: "Ahalkalakets",
@@ -1289,6 +1342,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 55,
     name: "Michael Chandler",
     weightclass: "Lightweight",
     nickname: "Iron",
@@ -1311,6 +1365,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 56,
     name: "Mateusz Gamrot",
     weightclass: "Lightweight",
     nickname: "Gamer",
@@ -1333,6 +1388,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 57,
     name: "Beneil Dariush",
     weightclass: "Lightweight",
     img: DARIUSH,
@@ -1354,6 +1410,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 58,
     name: "Rafael Fiziev",
     weightclass: "Lightweight",
     nickname: "Ataman",
@@ -1376,6 +1433,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 59,
     name: "Jalin Turner",
     weightclass: "Lightweight",
     nickname: "The Tarantula",
@@ -1398,6 +1456,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.2,
   },
   {
+    id: 60,
     name: "Dan Hooker",
     weightclass: "Lightweight",
     nickname: "The Hangman",
@@ -1420,6 +1479,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 61,
     name: "Rafael Dos Anjos",
     weightclass: "Lightweight",
     img: DOSANJOS,
@@ -1441,6 +1501,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.6,
   },
   {
+    id: 62,
     name: "Benoit Saint Denis",
     weightclass: "Lightweight",
     nickname: "God of War",
@@ -1463,6 +1524,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.4,
   },
   {
+    id: 63,
     name: "Renato Moicano",
     weightclass: "Lightweight",
     img: MOICANO,
@@ -1484,6 +1546,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 64,
     name: "Bobby Green",
     weightclass: "Lightweight",
     nickname: "King",
@@ -1506,6 +1569,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 65,
     name: "Leon Edwards",
     weightclass: "Welterweight",
     nickname: "Rocky",
@@ -1528,6 +1592,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 66,
     name: "Kamaru Usman",
     weightclass: "Welterweight",
     nickname: "The Nigerian Nightmare",
@@ -1550,6 +1615,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 67,
     name: "Belal Muhammad",
     weightclass: "Welterweight",
     nickname: "Remember the Name",
@@ -1572,6 +1638,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 68,
     name: "Shavkat Rakhmonov",
     weightclass: "Welterweight",
     nickname: "Nomad",
@@ -1594,6 +1661,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.5,
   },
   {
+    id: 69,
     name: "Gilbert Burns",
     weightclass: "Welterweight",
     nickname: "Durinho",
@@ -1616,6 +1684,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 70,
     name: "Colby Covington",
     weightclass: "Welterweight",
     nickname: "Chaos",
@@ -1638,6 +1707,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 71,
     name: "Ian Machado Garry",
     weightclass: "Welterweight",
     nickname: "The Future",
@@ -1660,6 +1730,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 72,
     name: "Sean Brady",
     weightclass: "Welterweight",
     img: BRADY,
@@ -1681,6 +1752,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.2,
   },
   {
+    id: 73,
     name: "Stephen Thompson",
     weightclass: "Welterweight",
     nickname: "Wonderboy",
@@ -1703,6 +1775,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 74,
     name: "Geoff Neal",
     weightclass: "Welterweight",
     nickname: "Handz of Steel",
@@ -1725,6 +1798,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 75,
     name: "Vicente Luque",
     weightclass: "Welterweight",
     nickname: "The Silent Assassin",
@@ -1747,6 +1821,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 76,
     name: "Jack Della Maddalena",
     weightclass: "Welterweight",
     img: DELLA,
@@ -1768,6 +1843,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 77,
     name: "Neil Magny",
     weightclass: "Welterweight",
     nickname: "The Haitian Sensation",
@@ -1790,6 +1866,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 78,
     name: "Kevin Holland",
     weightclass: "Welterweight",
     nickname: "Trailblazer",
@@ -1812,6 +1889,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 79,
     name: "Michael Chiesa",
     weightclass: "Welterweight",
     nickname: "Maverick",
@@ -1834,6 +1912,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 80,
     name: "Rinat Fakhretdinov",
     weightclass: "Welterweight",
     nickname: "Gladiator",
@@ -1856,6 +1935,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 81,
     name: "Dricus Du Plessis",
     weightclass: "Middleweight",
     nickname: "Stillknocks",
@@ -1878,6 +1958,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.1,
   },
   {
+    id: 82,
     name: "Sean Strickland",
     weightclass: "Middleweight",
     img: STRICKLAND,
@@ -1899,6 +1980,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 83,
     name: "Israel Adesanya",
     weightclass: "Middleweight",
     nickname: "The Last Stylebender",
@@ -1921,6 +2003,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 84,
     name: "Robert Whittaker",
     weightclass: "Middleweight",
     nickname: "The Reaper",
@@ -1943,6 +2026,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 85,
     name: "Jared Cannonier",
     weightclass: "Middleweight",
     nickname: "The Killa Gorilla",
@@ -1965,6 +2049,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 86,
     name: "Marvin Vettori",
     weightclass: "Middleweight",
     nickname: "The Italian Dream",
@@ -1987,6 +2072,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 87,
     name: "Brendan Allen",
     weightclass: "Middleweight",
     nickname: "All In",
@@ -2009,6 +2095,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.7,
   },
   {
+    id: 88,
     name: "Paulo Costa",
     weightclass: "Middleweight",
     nickname: "The Eraser",
@@ -2031,6 +2118,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 89,
     name: "Nassourdine Imavov",
     weightclass: "Middleweight",
     img: IMAVOV,
@@ -2052,6 +2140,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.7,
   },
   {
+    id: 90,
     name: "Roman Dolidze",
     weightclass: "Middleweight",
     img: DOLIDZE,
@@ -2073,6 +2162,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.7,
   },
   {
+    id: 91,
     name: "Jack Hermansson",
     weightclass: "Middleweight",
     nickname: "The Joker",
@@ -2095,6 +2185,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 92,
     name: "Khamzat Chimaev",
     weightclass: "Middleweight",
     nickname: "Borz",
@@ -2117,6 +2208,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.7,
   },
   {
+    id: 93,
     name: "Paul Craig",
     weightclass: "Middleweight",
     nickname: "Bearjew",
@@ -2139,6 +2231,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.6,
   },
   {
+    id: 94,
     name: "Anthony Hernandez",
     weightclass: "Middleweight",
     nickname: "Fluffy",
@@ -2161,6 +2254,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.9,
   },
   {
+    id: 95,
     name: "Chris Curtis",
     weightclass: "Middleweight",
     nickname: "Action-Man",
@@ -2183,6 +2277,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 96,
     name: "Caio Borralho",
     weightclass: "Middleweight",
     nickname: "The Natural",
@@ -2205,6 +2300,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 97,
     name: "Alex Pereira",
     weightclass: "Light Heavyweight",
     nickname: "Poatan",
@@ -2227,6 +2323,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 98,
     name: "Jamahal Hill",
     weightclass: "Light Heavyweight",
     nickname: "Sweet Dreams",
@@ -2249,6 +2346,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 99,
     name: "Jiri Prochazka",
     weightclass: "Light Heavyweight",
     img: JIRI,
@@ -2270,6 +2368,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 100,
     name: "Magomed Ankalaev",
     weightclass: "Light Heavyweight",
     img: Ankalaev,
@@ -2291,6 +2390,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 101,
     name: "Jan Blachowicz",
     weightclass: "Light Heavyweight",
     img: Blachowicz,
@@ -2312,6 +2412,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 102,
     name: "Aleksandar Rakic",
     weightclass: "Light Heavyweight",
     img: RAKIC,
@@ -2333,6 +2434,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 103,
     name: "Nikita Krylov",
     weightclass: "Light Heavyweight",
     nickname: "The Miner",
@@ -2355,6 +2457,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.4,
   },
   {
+    id: 104,
     name: "Johnny Walker",
     weightclass: "Light Heavyweight",
     img: WALKER,
@@ -2376,6 +2479,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 105,
     name: "Khalil Rountree Jr.",
     weightclass: "Light Heavyweight",
     img: KHALIL,
@@ -2397,6 +2501,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 106,
     name: "Volkan Oezdemir",
     weightclass: "Light Heavyweight",
     nickname: "No Time",
@@ -2419,6 +2524,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 107,
     name: "Anthony Smith",
     weightclass: "Light Heavyweight",
     nickname: "Lionheart",
@@ -2441,6 +2547,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.7,
   },
   {
+    id: 108,
     name: "Ryan Spann",
     weightclass: "Light Heavyweight",
     nickname: "Superman",
@@ -2463,6 +2570,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.5,
   },
   {
+    id: 109,
     name: "Alonzo Menifield",
     weightclass: "Light Heavyweight",
     nickname: "Atomic",
@@ -2485,6 +2593,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.3,
   },
   {
+    id: 110,
     name: "Azamat Murzakanov",
     weightclass: "Light Heavyweight",
     nickname: "The Professional",
@@ -2507,6 +2616,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 111,
     name: "Dominick Reyes",
     weightclass: "Light Heavyweight",
     nickname: "The Devastator",
@@ -2529,6 +2639,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.4,
   },
   {
+    id: 112,
     name: "Vitor Petrino",
     weightclass: "Light Heavyweight",
     img: GUSKOV,
@@ -2550,6 +2661,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1,
   },
   {
+    id: 113,
     name: "Jon Jones",
     weightclass: "Heavyweight",
     nickname: "Bones",
@@ -2572,6 +2684,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 114,
     name: "Tom Aspinall",
     weightclass: "Heavyweight",
     img: ASPINALL,
@@ -2593,6 +2706,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 1.7,
   },
   {
+    id: 115,
     name: "Ciryl Gane",
     weightclass: "Heavyweight",
     nickname: "Bon Gamin",
@@ -2615,6 +2729,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 116,
     name: "Sergei Pavlovich",
     weightclass: "Heavyweight",
     img: SERGEI,
@@ -2636,6 +2751,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 117,
     name: "Stipe Miocic",
     weightclass: "Heavyweight",
     img: MIOCIC,
@@ -2657,6 +2773,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 118,
     name: "Curtis Blaydes",
     weightclass: "Heavyweight",
     nickname: "Razor",
@@ -2679,6 +2796,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 119,
     name: "Alexander Volkov",
     weightclass: "Heavyweight",
     nickname: "Drago",
@@ -2701,6 +2819,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.2,
   },
   {
+    id: 120,
     name: "Jailton Almeida",
     weightclass: "Heavyweight",
     nickname: "Malhadinho",
@@ -2723,6 +2842,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 2.4,
   },
   {
+    id: 121,
     name: "Serghei Spivac",
     weightclass: "Heavyweight",
     nickname: "Polar Bear",
@@ -2745,6 +2865,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 122,
     name: "Tai Tuivasa",
     weightclass: "Heavyweight",
     nickname: "Bam Bam",
@@ -2767,6 +2888,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 123,
     name: "Marcin Tybura",
     weightclass: "Heavyweight",
     nickname: "Tybur",
@@ -2789,6 +2911,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.1,
   },
   {
+    id: 124,
     name: "Derrick Lewis",
     weightclass: "Heavyweight",
     nickname: "The Black Beast",
@@ -2811,6 +2934,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 125,
     name: "Jairzinho Rozenstruik",
     weightclass: "Heavyweight",
     nickname: "Bigi Boy",
@@ -2833,6 +2957,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0,
   },
   {
+    id: 126,
     name: "Alexandr Romanov",
     weightclass: "Heavyweight",
     nickname: "King Kong",
@@ -2855,6 +2980,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.9,
   },
   {
+    id: 127,
     name: "Marcos Rogerio de Lima",
     weightclass: "Heavyweight",
     nickname: "Pezao",
@@ -2877,6 +3003,7 @@ const fighterStat = [
     average_submissions_attempted_per_15_minutes: 0.5,
   },
   {
+    id: 128,
     name: "Rodrigo Nascimento",
     weightclass: "Heavyweight",
     nickname: "Ze Colmeia",
