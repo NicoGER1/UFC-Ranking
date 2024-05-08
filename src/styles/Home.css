@@ -3,10 +3,10 @@
   width: 100vw;
   background-image: url("../assets/ufc302.jpg");
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
   color: white;
   position: absolute;
+  z-index: 900;
 }
 .titleHome {
   font-size: 3em;

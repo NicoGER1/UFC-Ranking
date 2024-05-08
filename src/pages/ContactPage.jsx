@@ -1,10 +1,9 @@
-import NavBar from "../components/NavBar";
+import ContactForm from "../components/ContactForm";
 
 function ContactPage() {
   return (
     <>
-      <NavBar />
-      <h1>For more information contact me</h1>
+      <ContactForm />
     </>
   );
 }
