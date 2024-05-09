@@ -1,0 +1,39 @@
+.formTitle {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  margin: 8rem 25rem 4rem 25rem;
+  box-shadow: #c0c0c0 0px 4px 16px, #c0c0c0 0px 8px 24px, #c0c0c0 0px 16px 56px;
+  border-radius: 15px;
+}
+
+.name-container {
+  margin-top: 1.5rem;
+}
+.name-container,
+.firstname-container,
+.mail-container,
+.textarea-container {
+  width: 300px;
+  border-radius: 5px;
+  border: solid 2px;
+}
+
+.button {
+  margin-bottom: 1.5rem;
+  background-color: rgb(222, 3, 3);
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 1rem;
+}

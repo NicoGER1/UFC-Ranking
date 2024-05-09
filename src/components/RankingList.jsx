@@ -16,6 +16,8 @@ import Dricus from "../assets/middleweight/DU_PLESSUS_DRICUS_BELT.png";
 import Pereira from "../assets/lightheavyweight/PEREIRA_ALEX_BELT.png";
 import Jones from "../assets/heavyweight/JONES_JON_BELT.png";
 
+import { Link } from "react-router-dom";
+
 import "../styles/RankingPage.css";
 
 function RankingList() {
@@ -27,7 +29,7 @@ function RankingList() {
           <section className="PFP-Champ">
             <div className="infos">
               <h2 className="Division">
-                MEN'S POUND-FOR-POUND <span>TOP RANK</span>
+                MEN'S POUND-FOR-POUND <span className="topRank">TOP RANK</span>
               </h2>
               <h3>ISLAM MAKHACHEV</h3>
               <h4>CHAMPION</h4>

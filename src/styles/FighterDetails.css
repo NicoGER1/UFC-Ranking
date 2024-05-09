@@ -1,6 +1,7 @@
 .fighterDetailsContainer {
   margin: 4rem 5rem 4rem 5rem;
   background-color: black;
+  box-shadow: #c0c0c0 0px 4px 16px, #c0c0c0 0px 8px 24px, #c0c0c0 0px 16px 56px;
   border-radius: 15px;
   color: white;
   display: flex;

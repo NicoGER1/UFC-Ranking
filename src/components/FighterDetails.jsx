@@ -13,7 +13,8 @@ const FighterDetails = () => {
         <section className="fighter-stats">
           <h1 className="fighter-name">
             {" "}
-            {fighter.name} <br /><span className="nickname">{fighter.nickname}</span>
+            {fighter.name} <br />
+            <span className="nickname">{fighter.nickname}</span>
           </h1>
           <h2>{fighter.weightclass} Division</h2>
           <p className="stats">
