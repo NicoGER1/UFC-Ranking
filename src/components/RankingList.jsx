@@ -16,8 +16,6 @@ import Dricus from "../assets/middleweight/DU_PLESSUS_DRICUS_BELT.png";
 import Pereira from "../assets/lightheavyweight/PEREIRA_ALEX_BELT.png";
 import Jones from "../assets/heavyweight/JONES_JON_BELT.png";
 
-import { Link } from "react-router-dom";
-
 import "../styles/RankingPage.css";
 
 function RankingList() {
@@ -37,7 +35,7 @@ function RankingList() {
             </div>
           </section>
           {rankingPoundForPound.map((RankingPFP) => (
-            <table>
+            <table key={RankingPFP.rank}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingPFP.rank}</td>
@@ -57,7 +55,7 @@ function RankingList() {
             </div>
           </section>
           {rankingFlyweight.map((RankingFly) => (
-            <table>
+            <table key={RankingFly.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingFly.rank}</td>
@@ -77,7 +75,7 @@ function RankingList() {
             </div>
           </section>
           {rankingBantamweight.map((RankingBantam) => (
-            <table>
+            <table key={RankingBantam.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingBantam.rank}</td>
@@ -97,7 +95,7 @@ function RankingList() {
             </div>
           </section>
           {rankingFeathertweight.map((RankingFeather) => (
-            <table>
+            <table key={RankingFeather.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingFeather.rank}</td>
@@ -117,7 +115,7 @@ function RankingList() {
             </div>
           </section>
           {rankingLightweight.map((RankingLight) => (
-            <table>
+            <table key={RankingLight.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingLight.rank}</td>
@@ -137,7 +135,7 @@ function RankingList() {
             </div>
           </section>
           {rankingWelterweight.map((RankingWelter) => (
-            <table>
+            <table key={RankingWelter.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingWelter.rank}</td>
@@ -157,7 +155,7 @@ function RankingList() {
             </div>
           </section>
           {rankingMiddleweight.map((RankingMiddle) => (
-            <table>
+            <table key={RankingMiddle.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingMiddle.rank}</td>
@@ -177,7 +175,7 @@ function RankingList() {
             </div>
           </section>
           {rankingLightHeavyweight.map((RankingLightHeavy) => (
-            <table>
+            <table key={RankingLightHeavy.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingLightHeavy.rank}</td>
@@ -197,7 +195,7 @@ function RankingList() {
             </div>
           </section>
           {rankingHeavyweight.map((RankingHeavy) => (
-            <table>
+            <table key={RankingHeavy.fighter}>
               <tbody>
                 <tr>
                   <td className="RankNbr">{RankingHeavy.rank}</td>

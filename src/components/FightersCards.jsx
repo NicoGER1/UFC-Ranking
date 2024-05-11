@@ -44,7 +44,9 @@ function FightersCards() {
         >
           <option value="">All categories</option>
           {uniqueWeightClasses.map((weightClass) => (
-            <option value={weightClass}>{weightClass}</option>
+            <option key={weightClass} value={weightClass}>
+              {weightClass}
+            </option>
           ))}
         </select>
       </div>
@@ -55,7 +57,7 @@ function FightersCards() {
             to={`/fighters/${fighter.id}`}
             className="fighterLink"
           >
-            <article className="fighterCard">
+            <article key={fighter.name} className="fighterCard">
               <img
                 src={fighter.img}
                 alt={fighter.name}

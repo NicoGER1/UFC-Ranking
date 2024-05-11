@@ -18,11 +18,11 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/RankingPage",
+        path: "/ranking",
         element: <RankingPage />,
       },
       {
-        path: "/FighterPage",
+        path: "/fighters",
         element: <FighterPage />,
       },
       {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
           fetch(`http://localhost:5173//fighters/${params.id}`),
       },
       {
-        path: "/ContactPage",
+        path: "/contact",
         element: <ContactPage />,
       },
       {

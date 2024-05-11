@@ -6,17 +6,17 @@ const NavBar = () => {
   return (
     <nav className="NavBar">
       <ul className="Link-Container">
-        <Link className="LinkNav" to="/" key={Link}>
+        <Link className="LinkNav" to="/">
           Home
         </Link>
-        <Link className="LinkNav" to="/RankingPage" key={Link}>
+        <Link className="LinkNav" to="/ranking">
           Ranking
         </Link>
         <img className="logo" src={UFClogo} alt="UFC logo" />
-        <Link className="LinkNav" to="/FighterPage" key={Link}>
+        <Link className="LinkNav" to="/fighters">
           Fighters
         </Link>
-        <Link className="LinkNav" to="/ContactPage" key={Link}>
+        <Link className="LinkNav" to="/contact">
           Contact
         </Link>
       </ul>
