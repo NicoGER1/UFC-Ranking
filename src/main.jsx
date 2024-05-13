@@ -28,8 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/fighters/:id",
         element: <FighterDetails />,
-        loader: ({ params }) =>
-          fetch(`http://localhost:5173//fighters/${params.id}`),
+        
       },
       {
         path: "/contact",

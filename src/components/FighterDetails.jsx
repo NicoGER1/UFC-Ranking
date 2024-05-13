@@ -1,11 +1,10 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import fighterStat from "../services/fighterStat";
+import { useLocation } from "react-router-dom";
 import "../styles/FighterDetails.css";
 
 const FighterDetails = () => {
-  const { id } = useParams();
-  const fighter = fighterStat.find((fighter) => fighter.id === parseInt(id));
+  const location = useLocation();
+  const { fighter } = location.state;
 
   return (
     <div className="fighterDetailsContainer">

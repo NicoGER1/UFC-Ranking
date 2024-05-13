@@ -54,7 +54,8 @@ function FightersCards() {
         {filteredFighters.map((fighter) => (
           <Link
             key={fighter.id}
-            to={`/fighters/${fighter.id}`}
+            to={`/fighters/${fighter.name}`}
+            state={{fighter : fighter}}
             className="fighterLink"
           >
             <article key={fighter.name} className="fighterCard">
