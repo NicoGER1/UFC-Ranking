@@ -19,7 +19,6 @@ import Jones from "../assets/heavyweight/JONES_JON_BELT.png";
 import "../styles/RankingPage.css";
 
 function RankingList() {
-
   return (
     <>
       <h1 className="rankingTitle">Fighters Ranking</h1>
